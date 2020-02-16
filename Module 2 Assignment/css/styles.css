@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Verdana', 'Calibri';
+	font-size: 18px;
+}
+
+body{
+	background-color: #c8c8c8;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #404040;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 175%;
+}
+
+.box {
+	padding: 10px;
+	float: left;
+	text-align: center;
+}
+
+section {
+	color: white;
+	border: 1px black solid; 
+	height: 300px;
+	overflow: auto;
+	position: relative;
+}
+
+.title {
+	background-color: #404040;
+	font-size: 125%;
+	border: 1px black solid;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.info {
+	font-size: 18px;
+	padding: 8px 8px;
+	position: absolute;
+	top: 35px;
+}
+
+.Birdman>.title {
+	background-color: #330d00;
+	color: #ffc6b3;
+}
+
+.Memento>.title {
+	background-color: #001a33;
+	color: #b3d9ff;
+}
+
+.Solaris>.title {
+	background-color: #664400;
+	color: #ffe6b3;
+}
+
+.box>section.Birdman {
+	background-color: #661a00;
+}
+
+.box>section.Memento {
+	background-color: #00264d;
+}
+
+.box>section.Solaris {
+	background-color: #805500;
+}
+
+/********** Desktop **********/
+
+@media (min-width: 992px){
+	.col-lg-3 {
+		width: 33.33%;
+	}
+}
+
+/********** Tablet **********/
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-2 {
+		width: 50%;
+	}
+	.col-md-1 {
+		width: 100%;
+	}
+}
+
+/********** Mobile **********/
+
+@media (max-width: 767px){
+	.col-sm-1 {
+		width: 100%;
+	}
+}
