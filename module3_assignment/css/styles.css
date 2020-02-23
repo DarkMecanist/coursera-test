@@ -68,6 +68,10 @@ div.navbar-brand a:hover {
 	margin: auto;
 }
 
+#main-content {
+	margin-bottom: 20px;
+}
+
 #main-content h2 {
 	font-size: 2em;
 	margin-top: 0px;
@@ -102,3 +106,5 @@ div.navbar-brand a:hover {
 	text-decoration: none;
 	border: 3px solid #34495E;
 }
+
+
