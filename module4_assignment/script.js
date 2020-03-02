@@ -42,9 +42,9 @@ WARNING!!! WARNING!!!
   // 'speak' method.
   // See Lecture 50, part 1
   for (i=0; i < names.length; i++) {
-    var name = names[i]
+    var name = names[i];
 
-    var firstLetter = name.toLowerCase().charAt(0)
+    var firstLetter = name.toLowerCase().charAt(0);
     
     if (firstLetter == 'j') {
       byeSpeaker.speak(name)
